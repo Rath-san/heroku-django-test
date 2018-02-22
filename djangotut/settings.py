@@ -27,7 +27,9 @@ SECRET_KEY = '!u4-6lvjp4pvn1pw!y)p^f31xak-di6f*ke#-y8-b52zb@+!lr'
 DEBUG = True
 # DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    u'django-demo-tut-12.herokuapp.com'
+]
 
 
 # Application definition
